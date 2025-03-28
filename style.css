@@ -97,9 +97,16 @@ body {
 }
 
 .gallery img {
-  width: 180px;
+  max-width: 200px;
   height: auto;
   border-radius: 10px;
+  object-fit: cover;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+/* Wider images */
+.gallery img.wide {
+  max-width: 260px; /* or 250px, 280px etc. */
+}
+
 
