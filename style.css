@@ -1,11 +1,9 @@
-/* עיצוב כללי */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   scroll-behavior: smooth;
 }
 
-/* תפריט עליון */
 #menu {
   background-color: deepskyblue;
   padding: 10px;
@@ -45,13 +43,11 @@ body {
   color: white;
 }
 
-/* סקשנים */
 .section {
   text-align: center;
   padding: 80px 20px;
 }
 
-/* כותרת עם קווים */
 .section h2 {
   display: flex;
   align-items: center;
@@ -74,4 +70,3 @@ body {
   background: deepskyblue;
   margin: 0 10px;
 }
-
