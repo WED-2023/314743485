@@ -75,9 +75,9 @@ body {
 .section h2::before,
 .section h2::after {
   content: "";
-  flex: 1;
   height: 2px;
   background-color: deepskyblue;
+  width: 120px;
 }
 
 .section h2::before {
