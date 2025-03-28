@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
+
 <nav id="menu">
   <span class="logo">Logo</span>
   <ul>
@@ -16,109 +17,41 @@
     <li><a href="#contact">Contact Me</a></li>
   </ul>
 </nav>
-		  
+
 <section id="about" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
   <h2><span>About Me</span></h2>
   <p>your text here</p>
-<br/>
-<br/>
 </section>
 
 <section id="photos" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
   <h2><span>My Photos</span></h2>
   <p>your photos here</p>
-<br/>
-<br/>
 </section>
 
 <section id="playlist" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-  <h2><span>My playlists</span></h2>
+  <h2><span>My Playlist</span></h2>
   <p>your playlists here</p>
-<br/>
-<br/>
 </section>
 
 <section id="like" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-  <h2><span>My likes</span></h2>
+  <h2><span>My Likes</span></h2>
   <p>your likes here</p>
-<br/>
-<br/>
 </section>
 
-<section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
+<section id="qrcode" class="section">
   <h2><span>My QR</span></h2>
   <p>your QR here</p>
-<br/>
-<br/>
 </section>
 
-<section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-  <h2><span>My ans</span></h2>
-  <p>your ans here</p>
-<br/>
-<br/>
+<section id="qa" class="section">
+  <h2><span>Q&A</span></h2>
+  <p>your answers here</p>
 </section>
 
 <section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
   <h2><span>Contact Me</span></h2>
   <p>your contact here</p>
-<br/>
-<br/>
 </section>
 
-
-<script type="text/javascript">
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
-  });
-});
-</script>
-<script type="text/javascript">
- $(document).scroll(function() {
-    $('#menu').toggle($(this).scrollTop()>1000)
- });​
- </script>
 </body>
 </html>
