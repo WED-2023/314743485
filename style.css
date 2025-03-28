@@ -16,7 +16,7 @@ body {
   z-index: 1000;
 }
 
-/* שמירת הלוגו בצד שמאל */
+/* לוגו בצד שמאל */
 .logo {
   color: white;
   font-weight: bold;
@@ -25,7 +25,7 @@ body {
   font-size: 16px;
 }
 
-/* עטיפת הקישורים כדי למרכז אותם */
+/* קישורים ממורכזים */
 .nav-links {
   flex: 1;
   display: flex;
@@ -61,32 +61,29 @@ body {
   padding: 80px 20px;
 }
 
-/* כותרת עם קווים בצדדים */
+/* כותרות עם קו לכל רוחב */
 .section h2 {
-  margin-bottom: 20px;
-}
-
-.section h2 span {
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  justify-content: center;
   font-weight: bold;
   font-size: 24px;
+  margin-bottom: 20px;
   position: relative;
 }
 
-.section h2 span::before,
-.section h2 span::after {
+.section h2::before,
+.section h2::after {
   content: "";
+  flex: 1;
   height: 2px;
-  background: deepskyblue;
-  width: 100px; /* אפשר לשנות לאורך הרצוי */
-  display: inline-block;
+  background-color: deepskyblue;
 }
 
-.section h2 span::before {
+.section h2::before {
   margin-right: 15px;
 }
 
-.section h2 span::after {
+.section h2::after {
   margin-left: 15px;
 }
