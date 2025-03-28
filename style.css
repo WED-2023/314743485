@@ -131,4 +131,11 @@ body {
   margin-top: 20px;
 }
 
+.qr-image {
+  width: 200px; /* אפשר גם 250px */
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
 
