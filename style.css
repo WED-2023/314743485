@@ -88,6 +88,11 @@ body {
   margin-left: 15px;
 }
 
+.about-text {
+  font-size: 22px;
+  line-height: 1.8;
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
