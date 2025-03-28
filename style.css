@@ -138,4 +138,16 @@ body {
   margin: 20px auto;
 }
 
+/* ביטול מרכוז טקסט רק עבור הסקשן של Q&A */
+#qa {
+  text-align: left !important;
+}
+
+/* הוספת רווח פנימי מהרשימות והפסקאות */
+#qa ol,
+#qa ul,
+#qa li,
+#qa p {
+  margin-left: 20px;
+}
 
