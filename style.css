@@ -97,12 +97,12 @@ body {
 }
 
 .gallery img {
-  max-width: 200px;
-  height: auto;
+  max-height: 300px; /* גובה מירבי, לא חותך */
+  width: auto;       /* שומר על יחס הגובה-רוחב */
   border-radius: 10px;
-  object-fit: cover;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 
 /* Wider images */
 .gallery img.wide {
