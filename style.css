@@ -106,7 +106,7 @@ body {
 
 /* Wider images */
 .gallery img.wide {
-  max-width: 260px; /* or 250px, 280px etc. */
+  max-height: 400px;
 }
 
 
