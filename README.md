@@ -1,1 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/89IMDEJr)
+העבודה נעשתה על סבתא שלי ז"ל אתי גוכברג, שהיו לה חיים לא פשוטים אבל תמיד הייתה בעשייה ואהבה את הנכדים שלה המון ועשתה המון עבורנו. בחרתי להנציח חלק מסיפור חייה באמצעות יצירת עמוד אתר בשבילה.
+ת.ז המגישה: 314743485
+קישור לאתר שיצרתי: https://wed-2023.github.io/314743485/#contact
