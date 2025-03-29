@@ -151,3 +151,47 @@ body {
   margin-left: 20px;
 }
 
+/* עיצוב טופס יצירת קשר */
+#contact form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+  background-color: #f9f9f9;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#contact form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+#contact form input[type="email"],
+#contact form textarea,
+#contact form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+#contact form button {
+  background-color: deepskyblue;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#contact form button:hover {
+  background-color: dodgerblue;
+}
